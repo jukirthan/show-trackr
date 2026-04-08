@@ -1,0 +1,395 @@
+
+body {
+    font-family: Arial;
+    background-color: #e9ecef;
+    margin: 0;
+    color: #333;
+}
+
+.navbar {
+  
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+
+.nav-left { display: flex; align-items: center; }
+
+.logo {
+  
+    font-size: large;
+    padding: 15px ;
+    background-color: #ffd700; /* Yellow box */
+   margin-right: 10px;
+}
+.track{
+  font-weight: bold;
+}
+.navbar a.home{
+     border: 2px dotted gray;
+     padding:13px ;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #666;
+    padding: 13px 13px;
+   
+}
+
+
+.filters {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+.alphabet {
+    letter-spacing: 10px;
+    margin-bottom: 15px;
+    color: #555;
+    font-weight: bold;
+}
+
+.action span {
+    background: #eee;
+    padding: 3px 8px;
+    margin: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.content-box {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.content-header h3 { font-size: small; color: #777; }
+
+.search-bar {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 200px;
+}
+
+.movie {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.movie-card {
+    text-align: center;
+}
+
+.movie-card img {
+    width: 194.31px;
+    height:291.46px;
+  
+}
+
+.movie-info h4 {
+    margin: 10px 0 2px 0;
+    
+}
+
+.movie-info p {
+    font-size: 0.75rem;
+    color: #888;
+    margin: 0;
+}
+/* TV SHOW */
+.container-tvShow {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+.form-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds that subtle "pop" from the background */
+}
+
+.form-header {
+    padding: 5px 20px;
+    border-bottom: 1px solid #eee;
+    background-color: #fcfcfc;
+}
+
+.form-header h4 {
+    margin: 15px;
+    color: #444;
+    
+}
+
+
+.form-body {
+    padding: 30px 20px;
+}
+
+.form-body label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-body input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  outline-color: #ccbaba;
+}
+
+.form-body input::placeholder {
+    color: #bbb;
+}
+
+
+.btn-add {
+    background-color: #5d9cec; /* Light blue from screenshot */
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.btn-add:hover {
+    background-color: #4a89dc;
+}
+
+.container-detail {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+.detail-card {
+    background: #fff;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.poster {
+    width: 500px;
+    margin-right: 25px;
+}
+
+.poster img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.btn-login-sub {
+    width: 100%;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+.show-summary{
+    display: block;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-header h2 { margin: 0; font-size: 1.8rem; }
+
+.rating {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d9534f; /* Reddish for rating */
+}
+
+.air-time {
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+
+.description {
+    line-height: 1.6;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+
+.alert-banner {
+    background-color: #e3f2fd;
+    border: 1px solid #bbdefb;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 0.85rem;
+    border-radius: 4px;
+}
+
+
+.episodes-container {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.episodes-header {
+    background: #f8f8f8;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.episode-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 3px solid #333; /* Dark accent on the left */
+    margin-bottom: 5px;
+}
+
+.episode-item h4 { margin: 0 0 5px 0; font-size: 1rem; }
+
+.ep-meta {
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-left: 10px;
+}
+
+.ep-date {
+    font-size: 0.75rem;
+    color: #888;
+    margin: 5px 0;
+}
+
+.ep-desc {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); /* Adjust based on navbar height */
+}
+
+.login-card {
+    background: #fff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+/* Input Groups */
+.input-group {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.input-group .icon {
+    background: #f9f9f9;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    color: #999;
+    width: 20px;
+}
+
+.input-group input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+/* Buttons */
+.login {
+    width: 100%;
+    background-color: #70ca9b; /* Green from screenshot */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.login-footer a {
+    color: black;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.login-footer p {
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.or {
+  
+    font-weight: bold;
+    margin: 15px 0;
+    color: black;
+}
+
+
+.social-logins button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.btn-fb { background-color: #3b5998; }
+.btn-google { background-color: #dd4b39; }
